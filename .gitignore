@@ -1,0 +1,7 @@
+/.ipynb_checkpoints/
+/notebooks/.ipynb_checkpoints/
+/scripts/.ipynb_checkpoints/
+/predicting-annual-savings/.ipynb_checkpoints/
+/__pycache__/
+predicting-annual-savings/__pycache__/
+/notebooks/*.bin.gz
