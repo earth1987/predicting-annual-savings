@@ -1,0 +1,16 @@
+﻿Variable,Definition
+cust_unique_id,"A unique ID generated for each customer for the purposes of this analysis, in order to preserve customer anonymity."
+age,The age of each customer in years at the mid-point of the year for which data was queried.
+gender,The self-identified gender recorded by each customer.
+ethnicity_group,The self-identified etnnicity group recorded by each customer.
+geo_region,The geographical region of the UK to which the customers recorded address and postcode correspond.
+net_salary,"The total inflows into the customer's current account identified as consisting of salary payments, based on a separate analysis."
+other_income,"The total inflows into the customer's current account identified as consisting of non-salary forms of income, based on a separate analysis."
+observed_income,The sum of net_salary and other_income.
+housing_spend,"The total outflows from the customer's current account identified as consisting of mortgage, rent and other housing costs, based on a separate analysis."
+childcare_spend,"The total outflows from the customer's current account identified as consisting of nursery, childminder and other childcare costs, based on a separate analysis."
+gambling_spend,"The total outflows from the customer's current account identified as consisting of spending on gambling websites, based on a separate analysis."
+observed_surplus,The total of observed income minus the total of observed costs.
+credit_score,The credit score assigned to the customer by an internal bank credit scoring process.
+savings_bal_lbg,The total balance of savings held by the customer with Lloyds Banking Group entities as of the start of the year for which data was queried.
+annual_net_savings_lbg,"The total of savings payments made by the customer into savings accounts with Lloyds Banking Group entities, minus withdrawls from those accounts, during the year for which data was queried. "
