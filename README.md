@@ -105,12 +105,10 @@ The ridge regression model was retrained using the entire training set. Predicti
 |Ridge|MAE|1471.7|
 |Ridge|MSE|3396536.8|
 
-<img src="./notebooks/figures/test_set_results.png" align="centre" width="500" />
-
 **Conclusion:**
 
 The final ridge regression model is advantageous from several perspectives. Firstly, it outperforms the random forest model on both R-squared and mean absolute error. Secondly, if transparency is crucial, ridge regression is more explainable than a random forest. While feature importance during the training process can be determined for random forests, the coefficients in ridge regression are readily available and more easily interpreted.* Next, as linear regression models are less complex, they may be less prone to capturing subtle biases in the data and therefore unintended discrimination. Finally, linear regression models are computationally less intensive than random forests.
 
-Although the predictive performance of the model is high, it's important to note it's only applicable to individuals with annual savings above zero. Before utilising the model for decision-making, it might be necessary to develop a model predicting the probability of non-zero savings. Preliminary work in the econometrics workbook suggested that there might not be enough signal in the data for this latter task. Future work should involve testing non-linear models on this particular challenge and/or collecting more data.
+Although the predictive performance of the model is high, it's important to note it's only applicable to individuals with annual savings above zero. Before utilising the model for decision-making, it might be necessary to develop a model to predict the probability of non-zero savings. Preliminary work in the econometrics workbook suggested that there might not be enough signal in the data for this latter task. Future work should involve testing non-linear models on this particular challenge and/or collecting more data.
 
 \*Due to the additional regularisation term, the ridge regression model likely exhibits lower variance than the ordinary least squares model at the cost of increased bias in the coefficient estimates.
